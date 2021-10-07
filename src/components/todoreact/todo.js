@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import  "./style.css"
-
+import logo from './logo.svg' 
 const getLocalData = () => {
     const list = localStorage.getItem("mytodolist")
     if(list){
@@ -51,7 +51,7 @@ const Todo = () => {
             <div className="child-div">
                 <figure>
                     
-                  <img src="./images/todo.svg" alt="logo" />
+                  <img src={logo} alt="logo" />
                   <figcaption>Add Task's To your Todo List</figcaption>
                 </figure>
                 <div className="addItems"></div>

@@ -1,7 +1,7 @@
 {
   "name": "try-again",
   "version": "0.1.0",
-  "homepage": "https://Alpha-64.github.io/todo-list-reactJS",
+  "homepage": "https://Alpha-64.github.io/todoList-reactJS",
   "private": true,
   "dependencies": {
     "react": "^17.0.2",
